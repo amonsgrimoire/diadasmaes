@@ -1,0 +1,102 @@
+@media (max-width: 700px)
+{
+    .AAAA
+    {
+        background-color: rgb(25, 32, 39);
+        height: 20vh;
+        width: 100vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .corpo
+    {
+        height: 100vh;
+        width:100vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+/*   .corpo li 
+    {
+        background-color: rgb(131, 34, 110);
+        height: 70px;
+        width: 130px;
+        list-style: none;
+        font-size: larger;
+        border-radius: 20px;
+        
+    }
+    
+    .corpo li a 
+    {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px 0;
+    }
+*/
+
+    .album
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fotos
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .fr1
+    {
+        background-color: rgb(138, 174, 174);
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .fr2
+    {
+        display: none;
+    }
+    
+    .foto
+    {
+        width: 35vw;
+        height: 38vh;
+        background-color: rgb(157, 180, 24);
+        border-radius: 15px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .cardp
+    {
+        width: 100vw;
+        height: 80vh;
+        background-color: rgb(241, 210, 210);
+    }
+
+    .card
+    {
+        background-color: rgb(59, 39, 8);
+        height: 70%;
+        width: 40%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
